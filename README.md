@@ -1,4 +1,4 @@
-# Paradigmas de Programación 1
+# Paradigmas de Programación 
 
 <p align="center">
   <!-- Badges -->
