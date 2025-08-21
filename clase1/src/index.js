@@ -31,12 +31,13 @@ console.log("funcion testing T (3) = " + t3);
 // -filter
 // -reduce
 
-
-const arr = [1, 2, 3, 4, 5];
-const rest1 = arr.some((e) => e === 9); //verifica si al menos un elemento cumple la condicion
-console.log(arr);
-console.log(rest1); //Imprime false
-console.log(rest2); //Imprime true
+/*
+    const arr = [1, 2, 3, 4, 5];
+    const rest1 = arr.some((e) => e === 9); //verifica si al menos un elemento cumple la condicion
+    console.log(arr);
+    console.log(rest1); //Imprime false
+    console.log(rest2); //Imprime true
+/*
 //_______________________________________________
 // every: este metodo devuelve true/false si se cumplen en todos los elementos la condicion
 const todosSon5 = arr.every((e)=> e === 5); //verifica si todos los elementos cumplen la condicion
@@ -56,4 +57,5 @@ console.log("Array modificado..."); //imprime el array original [1, 2, 3, 4, 5]
 const nawarr2 = arr.map((e)=>{
     return e * 2; //Multiplica cada elemento del array por 2
 });
-console.log(nawarr2); //
+console.log(nawarr2); 
+
