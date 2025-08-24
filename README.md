@@ -21,19 +21,13 @@ Al finalizar la materia, el estudiante será capaz de:
 - Integrar herramientas modernas de desarrollo como Node.js, control de versiones y automatización de tareas.  
 
 ## Herramientas de Apoyo ## 
-
-## 🛠️ Herramientas de Apoyo
-
-Para trabajar durante la materia se utilizarán varias herramientas que facilitan la programación y el desarrollo de proyectos:
-
 <div style="display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 10px;">
   <a href="https://nodejs.org/en/" target="_blank" style="
       padding: 10px 14px; 
       background-color: #4CAF50; 
       color: white; 
       border-radius: 6px; 
-      text-decoration: none;
-      transition: all 0.3s ease;">
+      text-decoration: none;">
       Node.js
   </a>
   <a href="https://www.npmjs.com/package/nodemon" target="_blank" style="
@@ -41,8 +35,7 @@ Para trabajar durante la materia se utilizarán varias herramientas que facilita
       background-color: #FF5722; 
       color: white; 
       border-radius: 6px; 
-      text-decoration: none;
-      transition: all 0.3s ease;">
+      text-decoration: none;">
       Nodemon
   </a>
   <a href="https://docs.npmjs.com/cli/v9/configuring-npm/package-json" target="_blank" style="
@@ -50,8 +43,7 @@ Para trabajar durante la materia se utilizarán varias herramientas que facilita
       background-color: #2196F3; 
       color: white; 
       border-radius: 6px; 
-      text-decoration: none;
-      transition: all 0.3s ease;">
+      text-decoration: none;">
       Package.json
   </a>
   <a href="https://github.com/brunorios21/Paradigmas-de-programaci-n" target="_blank" style="
@@ -59,18 +51,11 @@ Para trabajar durante la materia se utilizarán varias herramientas que facilita
       background-color: #9C27B0; 
       color: white; 
       border-radius: 6px; 
-      text-decoration: none;
-      transition: all 0.3s ease;">
+      text-decoration: none;">
       Repositorio GitHub
   </a>
 </div>
 
-<style>
-  a:hover {
-    transform: scale(1.1);
-    filter: brightness(1.2);
-  }
-</style>
 ## Instalación de Dependencias
 
 Sigue estos pasos para preparar tu entorno de trabajo:
