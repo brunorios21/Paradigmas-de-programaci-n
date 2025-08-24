@@ -56,27 +56,15 @@ Al finalizar la materia, el estudiante será capaz de:
   </a>
 </div>
 
-## Instalación de Dependencias
 
-Sigue estos pasos para preparar tu entorno de trabajo:
+## Docentes de la UNPAZ (Universidad Nacional José c paz) 
 
-1. **Clonar el repositorio**
+La materia es dictada por:  
 
-```bash
-git clone https://github.com/brunorios21/Paradigmas-de-programaci-n.git
+- **Álvarez Leandro**  
+- **Gerardo Tulian**  
 
-2. Entrar a la carpeta del trabajo práctico
- "Paradigmas-de-programaci-n/TRABAJO PRACTICO"
-3. Instalar dependencias
-Haz clic en los botones para consultar la documentación oficial de cada herramienta:
+## Licencia
 
-<div style="display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 10px;"> <a href="https://nodejs.org/en/" target="_blank" style=" padding: 10px 14px; background-color: #4CAF50; color: white; border-radius: 6px; text-decoration: none; transition: all 0.3s ease;"> Node.js </a> <a href="https://www.npmjs.com/package/nodemon" target="_blank" style=" padding: 10px 14px; background-color: #FF5722; color: white; border-radius: 6px; text-decoration: none; transition: all 0.3s ease;"> Nodemon </a> <a href="https://docs.npmjs.com/cli/v9/configuring-npm/package-json" target="_blank" style=" padding: 10px 14px; background-color: #2196F3; color: white; border-radius: 6px; text-decoration: none; transition: all 0.3s ease;"> Package.json </a> </div>
-
-4. Ejecutar la aplicación
-
-node index.js
-
-
-5. Para desarrollo en vivo (auto-reinicio con nodemon)
-
-npx nodemon index.js
+Este repositorio se distribuye bajo la licencia **MIT**.  
+Podés ver el detalle completo en el archivo [LICENSE](LICENSE).
