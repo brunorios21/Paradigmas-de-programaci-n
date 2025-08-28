@@ -1,0 +1,23 @@
+{
+  "name": "paradigmas-de-programaci-n",
+  "version": "1.0.0",
+  "description": "La materia **Paradigmas de Programación** tiene como objetivo introducir al estudiante en diferentes formas de pensar, diseñar y desarrollar programas informáticos, más allá de la sintaxis de un lenguaje específico.  \r Se centra en **estructuras, metodologías y estilos de programación**, fomentando el desarrollo de soluciones eficientes, modulares y mantenibles.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brunorios21/Paradigmas-de-programaci-n.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brunorios21/Paradigmas-de-programaci-n/issues"
+  },
+  "homepage": "https://github.com/brunorios21/Paradigmas-de-programaci-n#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
