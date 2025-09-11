@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "nombre": "GoT",
+    "temporadas": 8,
+    "disponible": true,
+    "plataforma": "nesflix"
+  },
+  {
+    "id": 2,
+    "nombre": "Braking Bad",
+    "temporadas": 5,
+    "disponible": false,
+    "plataforma": "nesflix"
+  },
+  {
+    "id": 3,
+    "nombre": "Peaking Bleanders",
+    "temporadas": 6,
+    "disponible": true,
+    "plataforma": "nesflix"
+  }
+]
