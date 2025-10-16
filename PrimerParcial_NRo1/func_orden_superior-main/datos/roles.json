@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "descripcion": "Administrador",
+    "esAdmin": true
+  },
+  {
+    "id": 2,
+    "descripcion": "Empleado",
+    "esAdmin": false
+  }
+]

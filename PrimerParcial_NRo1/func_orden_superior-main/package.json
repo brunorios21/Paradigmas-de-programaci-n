@@ -1,0 +1,15 @@
+{
+  "name": "parcial",
+  "version": "1.0.0",
+  "description": "- **Fecha:** 08-Octubre-2025\r - **Duración:** 2h 30m\r - **Comisiones:** 1 y 2\r - **Modalidad:** Presencial\r - **Formato:** Lapicera y papel ✍️\r - **Docentes:** Leandro Alvarez y Gerardo González Tulián",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
