@@ -1,0 +1,84 @@
+class Tren {
+  constructor() {
+    this.vagones = [];
+  }
+
+  agregarVagon(vagon) {
+    this.vagones.push(vagon);
+  }
+
+  // Voy a crear los metodos de la sección de Requerimientos.
+
+  // 1. Hasta cuántos pasajeros puede llevar.
+  pasajeros() {
+    const pasajeros = this.vagones.reduce((acc, v) => {
+      acc = acc + v.cantidadDePasajeros();
+      return acc;
+    }, 0);
+    return pasajeros;
+  }
+
+  // 2. Cuántos vagones populares tiene. Un vagón es popular si puede llevar más de 50 pasajeros.
+  cantidadVagonesPopulares() {
+    return this.vagones.filter((v) => v.cantidadDePasajeros() > 50).length;
+  }
+
+  // 3. Si es una formación carguera, o sea, si todos los vagones pueden transportar
+  // al menos 1000 kilos de carga.
+  esFormacionCarguera() {
+    return this.vagones.every((v) => v.cargaMaxima() >= 1000);
+  }
+
+  // 4. Cuál es la dispersión de pesos, que es el resultado de esta cuenta:
+  // peso máximo del vagón más pesado - peso máximo del vagón más liviano.
+  dispersionPesos() {
+    //peso max del vagon mas pesado.
+    const maxPesado = this.vagones.reduce((max, v) => {
+      //console.log(`p: ${v.pesoMaximo()}`)
+      max = max > v.pesoMaximo() ? max : v.pesoMaximo();
+      return max;
+    }, 0);
+
+    //peso max del vagon mas liviano.
+    //Ojo, hago esto porque Math.min necesita argumentos no un array...
+    const maxLiviano = Math.min(...this.vagones.map((v) => v.pesoMaximo()));
+    return maxPesado - maxLiviano;
+  }
+
+  //5. Cuántos baños tiene una formación, que se obtiene como la cantidad de vagones que tienen baños
+  // (se supone que cada vagón que tiene baños, tiene uno solo).
+
+  cantidadBanios() {
+    return this.vagones.filter((v) => v.conBanion()).length;
+  }
+
+  // 6. Hacer mantenimiento de un vagón de pasajeros quiere decir ordenarlo;
+  // si no estaba ordenado pasa a estar ordenado, si ya estaba ordenado no cambia nada.
+  hacerMantenimiento() {
+    this.vagones.forEach((v) => {
+      v.recibirMantenimiento();
+    });
+  }
+
+  // 7. Punto extra.
+  // Si está equilbrada en pasajeros, o sea: si considerando sólo los vagones que llevan pasajeros, la diferencia entre el que más lleva y el que menos no supera los 20 pasajeros.
+  estaEquilibrada() {
+    const umbral = 20;
+
+    const capacidades = this.vagones
+      .map((v) => v.cantidadDePasajeros())
+      .filter((n) => n > 0); // solo los que realmente llevan pasajeros
+
+    if (capacidades.length <= 1) return true; // con 0 o 1 vagon, la dif es 0
+
+    const max = Math.max(...capacidades);
+    const min = Math.min(...capacidades);
+    const diferencia = max - min;
+
+    //console.log(`${max}  - ${min}`);
+
+    return diferencia <= umbral; // no supera los 20 
+  }
+}
+
+module.exports = Tren;
