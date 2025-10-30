@@ -1,17 +1,17 @@
-# 🚂 Ejercicio Ferroviaria
+# Ejercicio Ferroviaria
 
 Este proyecto implementa un sistema de gestión ferroviaria en JavaScript, dividido en tres etapas principales.
 
-## 📋 Índice
+## Índice
 - [Etapa 1 - Vagones](#etapa-1---vagones)
 - [Etapa 2 - Locomotoras](#etapa-2---locomotoras)
 - [Etapa 3 - Depósitos](#etapa-3---depósitos)
 
-## 🚃 Etapa 1 - Vagones
+## Etapa 1 - Vagones
 
 ### Tipos de Vagones
 
-#### 🏃 Vagones de Pasajeros
+#### Vagones de Pasajeros
 - **Características**:
   - Largo y ancho en metros
   - Presencia de baños
@@ -25,7 +25,7 @@ Este proyecto implementa un sistema de gestión ferroviaria en JavaScript, divid
   - Sin baños: 800kg
 - **Peso Máximo**: 2000kg + (80kg × pasajeros) + carga máxima
 
-#### 📦 Vagones de Carga
+#### Vagones de Carga
 - **Características**:
   - Carga máxima ideal
   - Cantidad de maderas sueltas
@@ -35,7 +35,7 @@ Este proyecto implementa un sistema de gestión ferroviaria en JavaScript, divid
   - Sin baños
 - **Peso Máximo**: 1500kg + carga máxima
 
-#### 🛏️ Vagones Dormitorio
+#### Vagones Dormitorio
 - **Características**:
   - Número de compartimientos
   - Camas por compartimiento
@@ -48,18 +48,18 @@ Este proyecto implementa un sistema de gestión ferroviaria en JavaScript, divid
 
 ### Requerimientos de Formación
 
-1. 👥 Capacidad total de pasajeros
-2. 🎯 Cantidad de vagones populares (>50 pasajeros)
-3. 📦 Verificación de formación carguera (todos los vagones ≥1000kg)
-4. ⚖️ Dispersión de pesos (máximo - mínimo)
-5. 🚽 Cantidad total de baños
-6. 🔧 Mantenimiento:
+1.  Capacidad total de pasajeros
+2.  Cantidad de vagones populares (>50 pasajeros)
+3.  Verificación de formación carguera (todos los vagones ≥1000kg)
+4.  Dispersión de pesos (máximo - mínimo)
+5.  Cantidad total de baños
+6.  Mantenimiento:
    - Vagones de pasajeros: ordenar
    - Vagones de carga: reparar 2 maderas sueltas
    - Vagones dormitorio: sin efecto
-7. ✨ Extra: Equilibrio de pasajeros (diferencia ≤20 entre máximo y mínimo)
+7.  Extra: Equilibrio de pasajeros (diferencia ≤20 entre máximo y mínimo)
 
-## 🚂 Etapa 2 - Locomotoras
+##  Etapa 2 - Locomotoras
 
 ### Características
 - Peso propio
@@ -68,23 +68,23 @@ Este proyecto implementa un sistema de gestión ferroviaria en JavaScript, divid
 - Eficiencia: puede arrastrar ≥5 veces su peso
 
 ### Funcionalidades
-1. 🏃‍♂️ Velocidad máxima de formación
-2. ⚡ Verificación de eficiencia
-3. 🚀 Capacidad de movimiento
-4. 💪 Cálculo de empuje faltante
+1.  Velocidad máxima de formación
+2.  Verificación de eficiencia
+3.  Capacidad de movimiento
+4.  Cálculo de empuje faltante
 
-## 🏭 Etapa 3 - Depósitos
+##  Etapa 3 - Depósitos
 
 ### Componentes
 - Formaciones armadas
 - Locomotoras sueltas
 
 ### Funcionalidades
-1. 🏋️ Obtener vagón más pesado de cada formación
-2. 👨‍✈️ Verificar necesidad de conductor experimentado
-3. 🔄 Agregar locomotoras a formaciones según necesidad
+1.  Obtener vagón más pesado de cada formación
+2.  Verificar necesidad de conductor experimentado
+3.  Agregar locomotoras a formaciones según necesidad
 
-## 🚀 Cómo ejecutar el proyecto
+##  Cómo ejecutar el proyecto
 
 1. Asegúrate de tener Node.js instalado
 2. Clona el repositorio
@@ -101,7 +101,7 @@ Este proyecto implementa un sistema de gestión ferroviaria en JavaScript, divid
    npm run dev
    ```
 
-## 🧪 Tests
+##  Tests
 
 El proyecto incluye tests exhaustivos que verifican:
 - Comportamiento de vagones individuales
@@ -110,7 +110,8 @@ El proyecto incluye tests exhaustivos que verifican:
 - Gestión de locomotoras
 - Funcionalidades de depósitos
 
-## 📚 Recursos Adicionales
+##  Recursos Adicionales
 
 Para más información y recursos del proyecto, visita:
+
 [Drive con recursos adicionales](https://drive.google.com/drive/folders/1lE8CC6fTmaQBz23LlYLQl0bpBbkFG_MF?usp=sharing)
